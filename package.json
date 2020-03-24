@@ -1,0 +1,16 @@
+{
+  "name": "node-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./index.js",
+    "start-dev": "NODE_ENV=development NODE_HTTPS=false node ./index.js"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "license": "private",
+  "private": true
+}
