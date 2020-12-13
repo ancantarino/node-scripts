@@ -1,4 +1,7 @@
-
+/**
+ * Importamos os tipos de carro que serão possíveis de
+ * serem criados.
+ */
 const sedan = require('./sedan');
 const suv = require('./suv');
 const pickup = require('./pickup');
@@ -9,6 +12,11 @@ class CarBuilder {
     this.car = null;
   }
 
+  /**
+   * Através do tipo, vamos selecionar um modelo de carro
+   * que será criado.
+   * @param {*} type Tipo/Modelo do carro.
+   */
   getCarType(type) {
     switch (type) {
       case 'sedan':
@@ -28,14 +36,23 @@ class CarBuilder {
     }
   }
 
+  /**
+   * Adiciona bancos ao carro.
+   */
   addSeats() {
     this.car.addSeats();
   }
 
+  /**
+   * Adiciona portas ao carro.
+   */
   addDoors() {
     this.car.addDoors();
   }
 
+  /**
+   * Adiciona rodas ao carro.
+   */
   addWheel() {
     this.car.addWheel();
   }

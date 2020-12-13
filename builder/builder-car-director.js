@@ -1,3 +1,7 @@
+/**
+ * O Diretor vai definir a ordem de execução das etapas
+ * na construção de um carro.
+ */
 class Director {
   buildCar(builder, type) {
     builder.getCarType(type);
