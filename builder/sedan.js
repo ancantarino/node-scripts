@@ -3,7 +3,7 @@
  */
 class Sedan {
   constructor() {
-    console.log('A new Sedan will be construct');
+    console.log('- A new Sedan will be construct');
   }
 
   /**
@@ -31,7 +31,7 @@ class Sedan {
    * Retorna as características de um carro Sedan.
    */
   getModel() {
-    console.log(`A new Sedan car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
+    console.log(`* A new Sedan car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
   }
 }
 

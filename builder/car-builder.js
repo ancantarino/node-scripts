@@ -1,6 +1,5 @@
 /**
- * Importamos os tipos de carro que serão possíveis de
- * serem criados.
+ * Importamos os tipos de carro que serão possíveis de criar.
  */
 const sedan = require('./sedan');
 const suv = require('./suv');

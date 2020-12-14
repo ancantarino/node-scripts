@@ -3,7 +3,7 @@
  */
 class Pickup {
   constructor() {
-    console.log('A new Pickup will be construct');
+    console.log('- A new Pickup will be construct');
   }
 
   /**
@@ -31,7 +31,7 @@ class Pickup {
    * Retorna as características de um carro Pickup.
    */
   getModel() {
-    console.log(`A new Pickup car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
+    console.log(`* A new Pickup car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
   }
 }
 

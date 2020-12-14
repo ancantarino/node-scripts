@@ -3,7 +3,7 @@
  */
 class Suv {
   constructor() {
-    console.log('A new SUV will be construct');
+    console.log('- A new SUV will be construct');
   }
 
   /**
@@ -31,7 +31,7 @@ class Suv {
    * Retorna as características de um carro SUV.
    */
   getModel() {
-    console.log(`A new SUV car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
+    console.log(`* A new SUV car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
   }
 }
 

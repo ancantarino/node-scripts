@@ -3,7 +3,7 @@
  */
 class Van {
   constructor() {
-    console.log('A new Van will be construct');
+    console.log('- A new Van will be construct');
   }
 
   /**
@@ -31,7 +31,7 @@ class Van {
    * Retorna as características de um carro Van.
    */
   getModel() {
-    console.log(`A new Van car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
+    console.log(`* A new Van car was created with: ${this.seats} seats, ${this.doors} doors and ${this.wheel} wheels.`)
   }
 }
 

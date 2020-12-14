@@ -21,7 +21,7 @@ const carBuilder = new CarBuilder();
 const sedan = makeNewCar.buildCar(carBuilder, 'sedan');
 const suv = makeNewCar.buildCar(carBuilder, 'suv');
 const pickup = makeNewCar.buildCar(carBuilder, 'pickup');
-const van = makeNewCar.buildCar(carBuilder, 'suv');
+const van = makeNewCar.buildCar(carBuilder, 'van');
 
 /**
  * Descrevemos o modelo de carro criado.
